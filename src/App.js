@@ -9,7 +9,7 @@ import ProductSlider from "./components/ProductSlider";
 import Hero from "./components/Hero";
 
 storyblokInit({
-	accessToken: process.env.REACT_APP_STORYBLOK_API_KEY,
+	accessToken: process.env.REACT_APP_STORYBLOK_API_KEY, // Your public access token
 	use: [apiPlugin],
 	components: {
 		hero: Hero,
