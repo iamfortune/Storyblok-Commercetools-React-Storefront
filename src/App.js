@@ -7,6 +7,7 @@ import ProductGrid from "./components/ProductGrid";
 import ProductFeature from "./components/ProductFeature";
 import ProductSlider from "./components/ProductSlider";
 import Hero from "./components/Hero";
+import FetchProducts from "./pages/FetchProducts";
 
 storyblokInit({
 	accessToken: process.env.REACT_APP_STORYBLOK_API_KEY, // Your public access token
@@ -26,6 +27,7 @@ const App = () => {
 			<Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="/product/:id" element={<ProductDetails />} />
+				<Route path="/fetch-products" element={<FetchProducts />} />
 			</Routes>
 		</BrowserRouter>
 	);

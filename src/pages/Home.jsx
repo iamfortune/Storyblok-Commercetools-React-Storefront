@@ -30,7 +30,7 @@ const Homepage = () => {
 		fetchHomeStory();
 	}, []);
 
-	// console.log(home?.content);
+
 
 	return (
 		<StyledSection>
